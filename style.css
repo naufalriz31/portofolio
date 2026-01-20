@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  transition: 0.3s;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero span {
+  color: #22c55e;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #22c55e;
+}
+
+.skills span {
+  display: inline-block;
+  background: #e5f7ed;
+  color: #15803d;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+body.dark .skills span {
+  background: #14532d;
+  color: #dcfce7;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+body.dark .card {
+  background: #020617;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  color: white;
+}
