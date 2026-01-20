@@ -40,7 +40,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -63,7 +63,6 @@ a {
 .navbar ul li a {
   font-weight: 500;
   color: #475569;
-  transition: color 0.2s ease;
 }
 
 .navbar ul li a:hover {
@@ -165,7 +164,6 @@ a {
 
 .edu-card strong {
   display: block;
-  font-size: 16px;
 }
 
 .edu-card span {
@@ -228,20 +226,15 @@ a {
   box-shadow: 0 30px 60px rgba(0,0,0,0.15);
 }
 
-/* 🔥 FIX UTAMA UNTUK GAMBAR POSTER */
+/* FIX POSTER VERTIKAL */
 .project-card img {
   width: 100%;
   height: auto;
-  max-height: 260px;
+  max-height: 280px;
   object-fit: contain;
   background: linear-gradient(135deg, #eef2ff, #e0e7ff);
   padding: 16px;
   border-bottom: 1px solid #e5e7eb;
-  transition: transform 0.3s ease;
-}
-
-.project-card:hover img {
-  transform: scale(1.02);
 }
 
 .project-content {
@@ -256,7 +249,7 @@ a {
 .project-tag {
   display: inline-block;
   font-size: 12px;
-  padding: 5px 14px;
+  padding: 6px 14px;
   border-radius: 999px;
   background: #eef2ff;
   color: #4338ca;
@@ -309,6 +302,10 @@ footer {
     padding: 16px 24px;
   }
 
+  .navbar ul {
+    display: none;
+  }
+
   .hero,
   .about,
   .contact {
@@ -322,11 +319,25 @@ footer {
 
   .hero-img img {
     margin: auto;
-    max-width: 300px;
+    max-width: 280px;
   }
 
   .about-text h3,
   .contact-left h3 {
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h3 {
+    font-size: 28px;
+  }
+
+  .hero-text h2 {
+    font-size: 32px;
+  }
+
+  .project-card img {
+    max-height: 240px;
   }
 }
