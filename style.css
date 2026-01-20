@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: #fafafa;
+  background: #F9FAFB;
   color: #111827;
   line-height: 1.7;
 }
@@ -21,7 +21,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: #fafafa;
+  background: #F9FAFB;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,19 +41,19 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #374151;
+  color: #4B5563;
   font-weight: 500;
 }
 
 .navbar a:hover {
-  color: #111827;
+  color: #2563EB;
 }
 
 .btn {
-  background: #b59b73;
-  color: #fff;
+  background: #2563EB;
+  color: #FFFFFF;
   padding: 10px 22px;
-  border-radius: 12px;
+  border-radius: 14px;
   font-weight: 500;
   text-decoration: none;
 }
@@ -71,7 +71,7 @@ body {
 
 .hero-text h1 {
   font-size: 18px;
-  color: #6b7280;
+  color: #6B7280;
 }
 
 .hero-text h2 {
@@ -82,15 +82,15 @@ body {
 
 .hero-text p {
   max-width: 520px;
-  color: #4b5563;
+  color: #6B7280;
   margin-bottom: 32px;
 }
 
 .hero-img img {
   width: 100%;
   max-width: 360px;
-  border-radius: 24px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+  border-radius: 26px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.12);
 }
 
 /* ================= ABOUT ================= */
@@ -106,7 +106,7 @@ body {
 .about-img img {
   width: 100%;
   max-width: 300px;
-  border-radius: 24px;
+  border-radius: 26px;
 }
 
 .about-text h3 {
@@ -115,7 +115,7 @@ body {
 }
 
 .about-text p {
-  color: #4b5563;
+  color: #6B7280;
   margin-bottom: 32px;
 }
 
@@ -124,12 +124,13 @@ body {
   margin-bottom: 16px;
 }
 
+/* EDUCATION CARD */
 .edu-card {
-  background: #ffffff;
-  border-radius: 16px;
-  padding: 20px 24px;
-  margin-bottom: 16px;
-  border: 1px solid #e5e7eb;
+  background: #FFFFFF;
+  border-radius: 18px;
+  padding: 22px 26px;
+  margin-bottom: 18px;
+  border: 1px solid #E5E7EB;
 }
 
 .edu-card strong {
@@ -139,12 +140,12 @@ body {
 
 .edu-card span {
   display: block;
-  color: #6b7280;
+  color: #6B7280;
   font-size: 14px;
 }
 
 .edu-card small {
-  color: #9ca3af;
+  color: #9CA3AF;
 }
 
 /* ================= SKILLS ================= */
@@ -162,14 +163,14 @@ body {
 .skill-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px;
+  gap: 26px;
 }
 
 .skill-card {
-  background: #ffffff;
+  background: #FFFFFF;
   padding: 28px;
-  border-radius: 18px;
-  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  border: 1px solid #E5E7EB;
 }
 
 .skill-card h4 {
@@ -177,7 +178,7 @@ body {
 }
 
 .skill-card p {
-  color: #6b7280;
+  color: #6B7280;
   font-size: 15px;
 }
 
@@ -196,16 +197,16 @@ body {
 .project-card {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  gap: 32px;
-  background: #ffffff;
-  border-radius: 20px;
-  padding: 32px;
-  border: 1px solid #e5e7eb;
+  gap: 36px;
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 36px;
+  border: 1px solid #E5E7EB;
 }
 
 .project-card img {
   width: 100%;
-  border-radius: 14px;
+  border-radius: 18px;
 }
 
 .project-card h4 {
@@ -214,12 +215,12 @@ body {
 }
 
 .project-card p {
-  color: #4b5563;
-  margin-bottom: 16px;
+  color: #6B7280;
+  margin-bottom: 18px;
 }
 
 .project-card a {
-  color: #b59b73;
+  color: #2563EB;
   font-weight: 600;
   text-decoration: none;
 }
@@ -240,7 +241,7 @@ body {
 }
 
 .contact-left p {
-  color: #4b5563;
+  color: #6B7280;
 }
 
 .contact-right p {
@@ -248,7 +249,7 @@ body {
 }
 
 .contact-right a {
-  color: #111827;
+  color: #2563EB;
   text-decoration: none;
   font-weight: 500;
 }
@@ -257,7 +258,7 @@ body {
 footer {
   text-align: center;
   padding: 40px 20px;
-  color: #9ca3af;
+  color: #9CA3AF;
   font-size: 14px;
 }
 
