@@ -8,6 +8,7 @@
 body {
   background: #f8fafc;
   color: #0f172a;
+  line-height: 1.6;
   transition: 0.3s;
 }
 
@@ -18,11 +19,22 @@ body.dark {
 
 .hero {
   text-align: center;
-  padding: 60px 20px;
+  padding: 70px 20px;
 }
 
 .hero span {
   color: #22c55e;
+}
+
+.subtitle {
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.desc {
+  max-width: 600px;
+  margin: 15px auto;
+  opacity: 0.9;
 }
 
 .avatar {
@@ -31,10 +43,20 @@ body.dark {
   margin-bottom: 15px;
 }
 
+button {
+  margin-top: 15px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 20px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+}
+
 section {
   max-width: 900px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 50px 20px;
 }
 
 h2 {
@@ -44,11 +66,12 @@ h2 {
 
 .skills span {
   display: inline-block;
-  background: #e5f7ed;
-  color: #15803d;
-  padding: 8px 12px;
-  margin: 5px;
+  background: #dcfce7;
+  color: #166534;
+  padding: 8px 14px;
+  margin: 6px;
   border-radius: 20px;
+  font-size: 14px;
 }
 
 body.dark .skills span {
@@ -59,8 +82,14 @@ body.dark .skills span {
 .card {
   background: white;
   padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  border-radius: 14px;
+  margin-top: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 body.dark .card {
@@ -69,17 +98,16 @@ body.dark .card {
 
 .card img {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-button {
-  margin-top: 15px;
-  padding: 10px 16px;
-  border: none;
-  border-radius: 20px;
-  background: #22c55e;
-  color: white;
-  cursor: pointer;
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #22c55e;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 footer {
